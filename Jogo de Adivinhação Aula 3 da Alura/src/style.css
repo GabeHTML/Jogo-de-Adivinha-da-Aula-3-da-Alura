@@ -1,0 +1,70 @@
+body {
+  font-family: "Lucida Console", Courier, monospace;
+  min-height: 600px;
+  top: 200px;
+  background-image: url("https://images.everyeye.it/img-notizie/l-episodio-965-one-piece-leggenda-community-legge-come-migliori-v3-503999.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #000000;
+  margin: 0 0 5px;
+  font-family: ;
+}
+
+.page-subtitle {
+  color: #000000;
+  margin-top: 16px;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.resultado {
+  color: #000000;
+  text-align: center;
+  margin-top: 16px;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+fieldset {
+  color: #ffffff;
+  border-radius: 5px;
+  margin-border: 8px;
+}
